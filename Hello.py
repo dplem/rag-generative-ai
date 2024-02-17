@@ -23,6 +23,11 @@ os.environ["LANGCHAIN_TRACING_V2"] = "true"
 import dotenv
 dotenv.load_dotenv()
 
+st.set_page_config(
+    page_title="Web QA",
+    page_icon="🌐",
+)
+
 
 def generate_response(url, question, openai_api_key):
     # Load, chunk and index the contents of the blog.
@@ -72,10 +77,7 @@ with st.form('my_form'):
         st.info(cb)
 
 
-# st.set_page_config(
-#     page_title="Hello",
-#     page_icon="👋",
-# )
+
 
 # st.write(response)
 
