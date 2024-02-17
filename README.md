@@ -10,6 +10,8 @@
 - OpenAI as an embedding agent and LLM
 
 
+## (See App in Action)[https://rag-generative-ai-5ireqvfsjr9.streamlit.app/]
+
 
 ### For more of my work see [My Portfolio](https://generative-ai-portfolio-daukgnhrbwu5cugphlvjmm.streamlit.app/)
 
