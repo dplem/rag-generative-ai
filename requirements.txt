@@ -3,3 +3,10 @@ numpy
 pandas
 pydeck
 streamlit
+langchain
+langchain_community
+langchain_openai
+linkpreview
+pysqlite3 >= 0.5.2
+python-dotenv
+chromadb
